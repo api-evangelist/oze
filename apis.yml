@@ -1,7 +1,26 @@
 aid: oze
 name: Oze
-description: Oze is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Oze is an African fintech platform on a mission to help small businesses grow, with a
+  stated vision of building 100 million profitable businesses. Operating across Ghana,
+  Nigeria, Rwanda, and Madagascar, Oze offers a Business App for bookkeeping, invoicing,
+  inventory management, and online sales; no-collateral SME loans; and lending-management
+  software that banks and microfinance institutions use to issue loans to small businesses.
+  The company reports serving over 300,000 businesses. Oze is backed by Speedinvest and was
+  added to the API Evangelist network as a portfolio lead. At the time of this enrichment
+  pass Oze publishes no public developer API, SDK, developer portal, or API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://getoze.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/oze/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +30,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Small Business
+- Bookkeeping
+- Invoicing
+- Lending
+- Africa
+- SME
 apis: []
+common:
+- type: DomainSecurity
+  url: security/oze-domain-security.yml
+- type: Website
+  url: https://getoze.com
+- type: Blog
+  url: https://getoze.com/blog/
+- type: Pricing
+  url: https://getoze.com/pricing
+- type: Support
+  url: https://getoze.com/contact-us/
+- type: HelpCenter
+  url: https://help.getoze.com/en/knowledge
+- type: SignUp
+  url: https://oze.app.link/nU7hE1tvdMb
+- type: Login
+  url: https://oze.app.link/web_login
+- type: TermsOfService
+  url: https://getoze.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://getoze.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
