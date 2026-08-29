@@ -9,6 +9,17 @@ description: >-
   The company reports serving over 300,000 businesses. Oze is backed by Speedinvest and was
   added to the API Evangelist network as a portfolio lead. At the time of this enrichment
   pass Oze publishes no public developer API, SDK, developer portal, or API documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
